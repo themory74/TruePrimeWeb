@@ -1,0 +1,17 @@
+# Enable rewrite engine
+Options +FollowSymLinks
+RewriteEngine On
+
+# --- Redirect old WordPress links to new HTML site ---
+Redirect 301 /home/ https://trueprimedigital.com/
+Redirect 301 /about/ https://trueprimedigital.com/about.html
+Redirect 301 /how-we-built-a-98-100-pagespeed-score-website-in-2-weeks/ https://trueprimedigital.com/
+Redirect 301 /category/ui-ux-design/ https://trueprimedigital.com/
+Redirect 301 /data-systems-automation-crm/ https://trueprimedigital.com/data-systems-automation.html
+Redirect 301 /analytics-data-tracking/ https://trueprimedigital.com/analytics-data-tracking.html
+Redirect 301 /social-media-marketing/ https://trueprimedigital.com/social-media-marketing.html
+Redirect 301 /google-ads-ppc/ https://trueprimedigital.com/ppc-ads.html
+Redirect 301 /seo-optimization/ https://trueprimedigital.com/seo-optimization.html
+Redirect 301 /contact/ https://trueprimedigital.com/contact.html
+Redirect 301 /services/ https://trueprimedigital.com/services.html
+# --- End Redirects ---
